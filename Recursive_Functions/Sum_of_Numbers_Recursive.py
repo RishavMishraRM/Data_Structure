@@ -4,6 +4,6 @@ def sum_rec(n):
     return sum_rec(n-1) + n
 
 
-num = input('Enter Number: ')
+num = input("Enter Number : ")
 n = int(num)
 print(sum_rec(n))
