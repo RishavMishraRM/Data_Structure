@@ -4,7 +4,7 @@ def factorial_rec(n):
     return factorial_rec(n - 1) * n
 
 
-num = input('Enter Number: ')
+num = input('Enter Number : ')
 n = int(num)
 print('Factorial: ', factorial_rec(n))
 
