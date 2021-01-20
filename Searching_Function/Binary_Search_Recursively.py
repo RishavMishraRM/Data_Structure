@@ -10,8 +10,7 @@ def binaryseaarch_recursive(A, key, l, r):
         elif key > A[mid]:
             return binaryseaarch_recursive(A,key,mid+1,r)
 
+        
 A = [15, 21, 47, 84, 96]
 found = binaryseaarch_recursive(A,17,0,4)
 print('Result : ', found)
-
-
