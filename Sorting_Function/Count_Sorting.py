@@ -1,4 +1,4 @@
-def countsort(A):
+def count_sort(A):
     n = len(A)
     maxsize = max(A)
     carray = [0] * (maxsize + 1)
@@ -16,9 +16,9 @@ def countsort(A):
 
 
 A = [3, 5, 8, 9, 6, 2, 3, 5, 5]
-print('Original Array:',A)
-countsort(A)
-print('Sorted Array:',A)
+print('Original Array : ',A)
+count_sort(A)
+print('Sorted Array : ',A)
 
 
 
