@@ -1,4 +1,4 @@
-def insertionsort(A):
+def insertion_sort(A):
     n = len(A)
     for i in range(1,n):
         cvalue = A[i]
@@ -10,6 +10,6 @@ def insertionsort(A):
 
 
 A = [3,5,8,9,6,2]
-print('Original Array:',A)
-insertionsort(A)
-print('Sorted Array:',A)
+print('Original Array : ',A)
+insertion_sort(A)
+print('Sorted Array : ',A)
