@@ -1,4 +1,4 @@
-def mergesort(A, left, right):
+def merge_sort(A, left, right):
     if left < right:
         mid = (left + right) // 2
         mergesort(A, left, mid)
@@ -34,5 +34,5 @@ def merge(A, left, mid, right):
 
 A = [3, 5, 8, 9, 6, 2]
 print('Original Array:',A)
-mergesort(A,0,len(A)-1)
+merge_sort(A,0,len(A)-1)
 print('Sorted Array:',A)
