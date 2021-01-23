@@ -15,7 +15,7 @@ def partition(A, low, high):
     return j
 
 
-def quicksort(A, low, high):
+def quick_sort(A, low, high):
     if low < high:
         pi = partition(A, low, high)
         quicksort(A, low, pi - 1)
@@ -25,6 +25,6 @@ def quicksort(A, low, high):
 
 A = [3, 5, 8, 9, 6, 2]
 print('Original Array:',A)
-quicksort(A, 0, len(A)-1)
+quick_sort(A, 0, len(A)-1)
 print('Sorted Array:',A)
 
