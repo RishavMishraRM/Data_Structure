@@ -1,4 +1,4 @@
-def selectionsort(A):
+def selection_sort(A):
     n = len(A)
     for i in range(n-1):
         position = i
@@ -12,5 +12,5 @@ def selectionsort(A):
 
 A = [3, 5, 8, 9, 6, 2]
 print('Original Array:',A)
-selectionsort(A)
+selection_sort(A)
 print('Sorted Array:',A)
