@@ -1,4 +1,7 @@
-#first Program
+# There are three programs which helps to use sorting function in python with keywords
+
+
+#First Program
 
 A = [63,250,835,947,651,28]
 print('Original List:', A)
@@ -14,6 +17,7 @@ print('List-A:', A)
 print('List-B:', B)
 
 #Third Program
+#To Reverse A String
 
 A = [63,250,835,947,651,28]
 print('Original List:', A)
