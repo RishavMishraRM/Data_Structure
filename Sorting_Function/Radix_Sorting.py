@@ -1,4 +1,4 @@
-def radixsort(A):
+def radix_sort(A):
     n = len(A)
     maxelement = max(A)
     digits = len(str(maxelement))
@@ -21,5 +21,5 @@ def radixsort(A):
 
 A = [63, 250, 835, 947, 651, 28]
 print('Original Array:',A)
-radixsort(A)
+radix_sort(A)
 print('Sorted Array:',A)
