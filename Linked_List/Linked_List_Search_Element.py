@@ -5,6 +5,9 @@ class _Node:
         self._element = element
         self._next = next
 
+# creating a function in Linked_List class to search
+        
+        
 class LinkedList:
     def __init__(self):
         self._head = None
