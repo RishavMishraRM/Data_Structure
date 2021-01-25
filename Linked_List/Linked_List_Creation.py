@@ -1,3 +1,5 @@
+#Creating a linked list 
+# Node of Linked_List
 class _Node:
     __slots__ = '_element', '_next'
 
@@ -5,6 +7,8 @@ class _Node:
         self._element = element
         self._next = next
 
+# Adding Node to Linked_List Created
+        
 class LinkedList:
     def __init__(self):
         self._head = None
