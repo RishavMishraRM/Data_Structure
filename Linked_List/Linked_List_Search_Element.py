@@ -5,7 +5,7 @@ class _Node:
         self._element = element
         self._next = next
 
-# creating a function in Linked_List class to search
+# creating a function in Linked_List class to search and searching after printing
         
         
 class LinkedList:
