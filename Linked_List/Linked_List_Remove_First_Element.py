@@ -5,7 +5,7 @@ class _Node:
         self._element = element
         self._next = next
 
-class LinkedList:
+class Linked_List:
     def __init__(self):
         self._head = None
         self._tail = None
@@ -75,7 +75,7 @@ class LinkedList:
             index = index + 1
         return -1
 
-L = LinkedList()
+L = Linked_List()
 L.addlast(7)
 L.addlast(4)
 L.addlast(12)
