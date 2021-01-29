@@ -1,3 +1,5 @@
+# This is circular linked list whose first node address is writen in last node
+
 class _Node:
     __slots__ = '_element', '_next'
 
