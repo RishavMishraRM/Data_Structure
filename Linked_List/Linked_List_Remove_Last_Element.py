@@ -1,3 +1,5 @@
+#Removing last element from linked list
+
 class _Node:
     __slots__ = '_element', '_next'
 
