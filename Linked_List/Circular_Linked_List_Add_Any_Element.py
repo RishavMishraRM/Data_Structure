@@ -5,7 +5,7 @@ class _Node:
         self._element = element
         self._next = next
 
-class CircularLinkedList:
+class Circular_Linked_List:
     def __init__(self):
         self._head = None
         self._tail = None
@@ -70,7 +70,7 @@ class CircularLinkedList:
             index = index + 1
         return -1
 
-C = CircularLinkedList()
+C = Circular_Linked_List()
 C.addlast(7)
 C.addlast(4)
 C.addlast(12)
