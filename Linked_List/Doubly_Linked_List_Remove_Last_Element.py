@@ -6,7 +6,7 @@ class _Node:
         self._next = next
         self._prev = prev
 
-class DoublyLinkedList:
+class Doubly_Linked_List:
     def __init__(self):
         self._head = None
         self._tail = None
@@ -90,7 +90,7 @@ class DoublyLinkedList:
             p = p._prev
         print()
 
-L = DoublyLinkedList()
+L = Doubly_Linked_List()
 L.addlast(7)
 L.addlast(4)
 L.addlast(12)
