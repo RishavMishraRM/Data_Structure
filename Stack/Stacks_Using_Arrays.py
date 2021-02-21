@@ -1,4 +1,4 @@
-class StacksArray:
+class Stack_Using_Array:
 
     def __init__(self):
         self._data = []
@@ -25,7 +25,7 @@ class StacksArray:
         return self._data[-1]
 
 
-S = StacksArray()
+S = Stack_Using_Array()
 S.push(5)
 S.push(3)
 print(S._data)
