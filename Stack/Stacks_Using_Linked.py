@@ -5,7 +5,7 @@ class _Node:
         self._element = element
         self._next = next
 
-class StacksLinked:
+class Stacks_Using_Linked_List:
     def __init__(self):
         self._top = None
         self._size = 0
@@ -48,7 +48,7 @@ class StacksLinked:
         print()
 
 
-S = StacksLinked()
+S = Stacks_Using_Linked_List()
 S.push(5)
 S.push(3)
 print(len(S))
