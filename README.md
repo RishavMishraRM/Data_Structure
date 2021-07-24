@@ -1,2 +1,2 @@
 # Data_Structure
-### Its the implementation of data structure using python language 
+### Its the implementation of oops, data structure and algorithms using python language 
